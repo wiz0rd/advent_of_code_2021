@@ -1,27 +1,28 @@
-###Advent of Code Collaboration 2021###
+#### GOALS ####
 
-If you are unfamiliar with Advent of Code, basically, it is an event that has been running since 2015. Two coding
-challenges are made available at Midnight each day from December 1st to December 25th. For each successful challenge
-completed, competitors are awarded a gold star. If we get 50 gold stars, we can "Save Christmas".
+To get 50 gold stars and save Christmas.
 
-The challenges, at least last year, and I expect this to continue, are made available in the form of a very long
-string (thousands or tens of thousands of characters) that can be accessed via the web. The best method to capture
-this string that I have found is with Copy and Paste. However, beware of translator software in your browser! Last
-year my translator software was minutely modifying the output so I would always fail a challenge, even though I
-felt like my code was good!
+#### STEPS ####
 
-Anyways, the first step is always to capture the output, and save it into the github repo on the input.txt file
-which will be located in the directory like this:
-12_01_TOMAS/challenge1/input.txt
+1. Clone the repo using the links at the bottom of this README ie "git clone git@github.com:wiz0rd/advent_of_code_2021.git"
 
-or
+2. Capture the challenge input from https://adventofcode.com and paste it into the input.txt file for the
+corresponding challenge.
 
-12_01_TOMAS/challenge2/input.txt
+3. Write your coding solution to the challenge using any method / file system you want.
 
-Once you have captured the input, and saved it and updated the repo, then you can go on to solve the puzzle. Once
-the puzzle is completed and solved correctly, change the name of the directory like this:
+4. Post your solution, which should just be a number usually, in the solution.txt file.
 
-12_01_TOMAS_COMPLETE
+5. Run "git add *" to add your new code to the repo and save your work.
+
+6. Run "git commit" to commit your work when you are ready.
+
+7. Run "git push" to push your work to the repository.
+
+8. Log in to https://adventofcode.com to test if your answer is the correct solution to the problem
+
+9. If you have solved the problem change your "challenge1" or "challenge2" directory to "challenge1_solved"
+or "challenge2_solved".
 
 #### FUTURE ####
 
@@ -38,4 +39,4 @@ Github SSH repository cloning link: git@github.com:wiz0rd/advent_of_code_2021.gi
 
 Github HTTPS repository cloning link: https://github.com/wiz0rd/advent_of_code_2021.git
 
-
+Advent of Code: https://adventofcode.com
