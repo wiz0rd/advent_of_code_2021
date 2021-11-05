@@ -14,11 +14,15 @@
 ###  below it is executed next.
 
 from collections import OrderedDict
+import os
+
+cwd = os.getcwd()
+
 iterator = 0
 moves = OrderedDict()
 moves = {}
 accumulator = 0
-with open('/advent_of_code_2021/SAMPLE/challenge2/input.txt', 'r') as f:
+with open(cwd + '/input.txt', 'r') as f:
     for line in f:
         line = line.strip().split()
         moves[iterator] = line
