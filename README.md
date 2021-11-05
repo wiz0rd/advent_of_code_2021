@@ -24,14 +24,23 @@ corresponding challenge.
 9. If you have solved the problem change your "challenge1" or "challenge2" directory to "challenge1_solved"
 or "challenge2_solved".
 
-#### FUTURE ####
+#### Submitting Solutions ####
 
-I will be creating an email account we will all have to share. Or, I can handle the submissions for our team 
-account, and people can use personal advent of code accounts to test their code. We can take a vote on this
-once everyone joins the slack channel. Either way is fine by me, once the answer is made available it would
-only take me a few minutes per day to answer the challenge.
+1. Each group member will have their own Advent of Code account. 
 
-####Important Links####
+2. Accounts can be created easily by linking an account: 
+
+"To play, please identify yourself via one of these services:
+
+[GitHub] [Google] [Twitter] [Reddit] - [How Does Auth Work?]"
+
+3. Once your account is linked, access to the puzzles will be available to you.
+
+4. Many of the players might not want to "cheat" to get their stars, feel free not to use the solutions provided by
+the group if you don't want to. If you have time you are encouraged to solve as many puzzles on your own as you 
+would like.
+
+#### Important Links ####
 
 Slack channel invitation link: https://join.slack.com/t/rccpastandpre-4on4112/shared_invite/zt-xp5tez03-c6O4_JVmHFSQxVwRQ6TfcA
 
