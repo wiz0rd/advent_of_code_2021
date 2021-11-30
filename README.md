@@ -1,3 +1,6 @@
+#### WARNING ####
+Always use BRANCH git functionality when you code. Check out a Branch or we could lose the whole repo!
+
 #### GOALS ####
 
 To get 50 gold stars and save Christmas.
@@ -6,23 +9,35 @@ To get 50 gold stars and save Christmas.
 
 1. Clone the repo using the links at the bottom of this README ie "git clone git@github.com:wiz0rd/advent_of_code_2021.git"
 
-2. Capture the challenge input from https://adventofcode.com and paste it into the input.txt file for the
-corresponding challenge.
+2. Change directory into the new advent_of_code_2021 directory and run the command "git branch -a" to view existing
+branches and to see which branch you are currently on. (Denoted by *)
 
-3. Write your coding solution to the challenge using any method / file system you want.
+3. If you don't already have a branch you are working on , create a new branch with "git branch <new branch>"
+or "git checkout -b <new branch name>" to create the new branch and immediately move into it. If you have already
+created a branch and you are coming back to it to continue your work, the command is,  "git checkout <branch name>". 
 
-4. Post your solution, which should just be a number usually, in the solution.txt file.
+4. Only work in directories that are assigned to you in the batting order.(folders with your name)
 
-5. Run "git add *" to add your new code to the repo and save your work.
+5. Capture the challenge input from https://adventofcode.com and paste it into the input.txt file for the
+corresponding challenge in your days folder challenge1 or challenge2, input.txt file that already exists
+inside your directory structure for your day. The challenge input stays the same for both challenges.
 
-6. Run "git commit" to commit your work when you are ready.
+5. Write your coding solution to the challenge using any coding language or system you want and save it however
+you like. I recommend something like "day1_challenge1.py" inside the challenge1 folder.
 
-7. Run "git push" to push your work to the repository.
+6. Once you have some working code, and you think you have solved it, test your solution (usually a number value)
+at adventofcode.com and see if you are rewarded a gold star. If you do get a gold star, post your solution in the
+"solution.txt" in the "/advent_of_code/YOUR_DAY/challenge1/solution.txt" file. (I've only seen this be a numerical
+value.) 
 
-8. Log in to https://adventofcode.com to test if your answer is the correct solution to the problem
+7. Once you have a working solution to both challenge1 and challenge2 for your day, append the directory name for
+that day with "solved" so everyone knows that day is done. EX: "12_01_CHRIS" becomes "12_01_CHRIS_solved"
 
-9. If you have solved the problem change your "challenge1" or "challenge2" directory to "challenge1_solved"
-or "challenge2_solved".
+8. The branch is now ready to be merged with the Master. Run the following commands: "git add *", "git commit",
+"git checkout master", "git branch" (to confirm you are now in the master branch), "git merge <branch name> --no-ff",
+and finally, "git push".
+
+9. Relax, It's Miller Time.
 
 #### Submitting Solutions ####
 
@@ -39,6 +54,14 @@ or "challenge2_solved".
 4. Many of the players might not want to "cheat" to get their stars, feel free not to use the solutions provided by
 the group if you don't want to. If you have time you are encouraged to solve as many puzzles on your own as you 
 would like.
+
+#### Rules of Thumb ####
+1. This is for fun and learning, if you can't solve a challenge on your own, ask for help! We will try to help, and
+some of these are REALLY hard, even together we might not solve a few of these! So if we don't come through and solve
+them all, that's definitely OK too, and no shame to anyone who didn't complete a challenge!
+
+2. Lets learn to work in a collaborative environment using Slack and Git Branches and do some coding as well, and
+again, above all HAVE FUN!
 
 #### Important Links ####
 
