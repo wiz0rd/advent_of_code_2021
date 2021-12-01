@@ -26,7 +26,7 @@ d. git checkout <branch name> #Checks out an existing branch to the user
 e. git checkout -b <new branch name> #Creates a new branch and immediately checks out the branch
 f. git add * #Adds new files and folders to the current branch
 g. git commit #Commits the work for saving to github
-h. git checkout master #Changes back to the master branch
+h. git checkout main #Changes back to the master branch
 i. git branch -a #Verifies what branch is currently checked out (denoted by *)
 j. git merge <branch name> --no-ff #Merges whichever branch to the master branch
 k. git push #Pushes all the changes up to github
