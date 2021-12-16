@@ -1,0 +1,5 @@
+My code works - I believe both versions work - however - its too much number crunching so it will take months
+for us to get the answer. If someone could optimize it somehow - I'm not sure if threading or multiprocessing 
+applies - it might get done quicker.
+
+-Josh
